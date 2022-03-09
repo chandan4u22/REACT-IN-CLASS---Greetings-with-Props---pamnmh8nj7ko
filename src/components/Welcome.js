@@ -1,6 +1,6 @@
 // write code for Welcome component here
 import React from "react";
-const Welcome = ({name}) => {
+const Welcome = ({props.name}) => {
     return(
         <>
             <h1>Hey {name}!</h1>
